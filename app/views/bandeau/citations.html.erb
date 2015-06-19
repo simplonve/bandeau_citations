@@ -4,6 +4,7 @@
 		<div class="citation"><%= @citation.citation %></div>
 		<div class="auteur"><%= @citation.auteur %></div>
 	</div>
+	<META HTTP-EQUIV="Refresh" CONTENT="15">
 	<script src="letterer.js"></script>
 		<script>
 			var lettersContainer = document.getElementById('mainText'),
@@ -12,9 +13,7 @@
 				delayJump = 33,
 				totalLetters;
 			
-			// Break to letters
 			letterer( lettersContainer );
-			// get all "letter" elements
 			
 			letters = lettersContainer.getElementsByTagName('letter');
 			totalLetters = letters.length;
@@ -22,7 +21,6 @@
 			for( var i=0; i < totalLetters; i++ ){
 				doTimer(letters[i], delay);
 				delay += delayJump;
-				// if the letter is a "space" then pause for a little more, to have some delay between words 
 				if( letters[i].innerHTML == ' ' )
 					delay += delayJump * 3;
 			}
