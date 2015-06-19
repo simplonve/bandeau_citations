@@ -1,0 +1,59 @@
+@font-face{
+    font-family: 'Roboto';
+    src: url('Roboto/Roboto-Thin.eot');
+    src: url('Roboto/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+         url('Roboto/Roboto-Thin.woff') format('woff'),
+         url('Roboto/Roboto-Thin.ttf') format('truetype'),
+         url('Roboto/Roboto-Thin.svg#Roboto') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.citation {
+	font-family: "Roboto";
+	font-size: 1.5em;
+	color: rgb(3, 19, 74);
+	font-style: italic;
+	padding: 2% 2% 2% 2%;
+}
+
+.auteur {
+	font-family: "Roboto";
+	font-size: 1.1em;
+	padding: 2% 2% 2% 60%;
+}
+
+.zone-citation {
+  position: relative;
+  min-height: 1px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+		
+#mainText{ 
+	width:50%; 
+	xmin-width:500px; 
+	margin:50px auto; 
+}
+		
+word{ 
+	display:inline-block; 
+}
+		
+
+letter{ 
+	display:inline-block; 
+	white-space:pre; 
+	background:none; 
+	transition:.5s; 
+}
+
+letter.initial{ 
+	opacity:0; 
+	text-shadow:0 0 9px; 
+	color:#FFF; 
+	-webkit-transform:scale(8); 
+	-webkit-transform-origin:150% 50%; 
+	transform:scale(8); 
+	transform-origin:150% 50%; 
+}
