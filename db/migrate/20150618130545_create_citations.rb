@@ -3,6 +3,8 @@ class CreateCitations < ActiveRecord::Migration
     create_table :citations do |t|
       t.text :citation
       t.string :auteur
+
+      t.timestamps null: false
     end
   end
 end
