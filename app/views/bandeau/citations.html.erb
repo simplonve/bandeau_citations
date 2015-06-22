@@ -1,34 +1,33 @@
 <div class="zone-citation">
 	<div id='mainText'>
-	
-		<div class="citation"><%= @citation.citation %></div>
+		<div class="citation"><q><%= @citation.citation %></q></div>
 		<div class="auteur"><%= @citation.auteur %></div>
 	</div>
 	<META HTTP-EQUIV="Refresh" CONTENT="10">
 	<script src="letterer.js"></script>
-		<script>
-			var lettersContainer = document.getElementById('mainText'),
-				letters, 
-				delay = 180,
-				delayJump = 33,
-				totalLetters;
-			
-			letterer( lettersContainer );
-			
-			letters = lettersContainer.getElementsByTagName('letter');
-			totalLetters = letters.length;
-			
-			for( var i=0; i < totalLetters; i++ ){
-				doTimer(letters[i], delay);
-				delay += delayJump;
-				if( letters[i].innerHTML == ' ' )
-					delay += delayJump * 3;
-			}
-			
-			function doTimer(letter, delay){
-				setTimeout(function(){ 
-					letter.removeAttribute('class');
-				}, delay);
-			}
-		</script>
+	<script>
+		var lettersContainer = document.getElementById('mainText'),
+			letters, 
+			delay = 180,
+			delayJump = 33,
+			totalLetters;
+		
+		letterer( lettersContainer );
+		
+		letters = lettersContainer.getElementsByTagName('letter');
+		totalLetters = letters.length;
+		
+		for( var i=0; i < totalLetters; i++ ){
+			doTimer(letters[i], delay);
+			delay += delayJump;
+			if( letters[i].innerHTML == ' ' )
+				delay += delayJump * 3;
+		}
+		
+		function doTimer(letter, delay){
+			setTimeout(function(){ 
+				letter.removeAttribute('class');
+			}, delay);
+		}
+	</script>
 </div>

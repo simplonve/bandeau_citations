@@ -9,31 +9,30 @@
     font-style: normal;
 }
 
+.zone-citation {
+	min-height: 1px;
+}
+
 .citation {
 	font-family: "Roboto";
-	font-size: 1.5em;
-	color: rgb(3, 19, 74);
+	font-size: 1.4em;
+	color: rgb (27, 60, 87);
 	font-style: italic;
 	padding: 2% 2% 2% 2%;
 }
 
 .auteur {
 	font-family: "Roboto";
-	font-size: 1.1em;
-	padding: 2% 2% 2% 60%;
+	font-size: 1.2em;
+	text-align: left;
+	padding: 2% 2% 2% 55%;
 }
 
-.zone-citation {
-  position: relative;
-  min-height: 1px;
-  padding-right: 25px;
-  padding-left: 25px;
-}
-		
-#mainText{ 
+#mainText {
+ 	top: 150px;
 	width:50%; 
-	xmin-width:500px; 
-	margin:50px auto; 
+	min-width:500px; 
+	margin:50px auto;
 }
 		
 word{ 
@@ -45,7 +44,7 @@ letter{
 	display:inline-block; 
 	white-space:pre; 
 	background:none; 
-	transition:.5s; 
+	transition:0.5s; 
 }
 
 letter.initial{ 
