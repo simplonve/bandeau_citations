@@ -54,6 +54,6 @@ letter.initial{
 	color:#FFF; 
 	-webkit-transform:scale(8); 
 	-webkit-transform-origin:150% 50%; 
-	transform:scale(8); 
+	transform:scale(2); 
 	transform-origin:150% 50%; 
 }
