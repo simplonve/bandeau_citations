@@ -17,7 +17,7 @@
 	font-family: "Roboto";
 	font-size: 1.4em;
 	color: rgb (27, 60, 87);
-	font-style: italic;
+/*	font-style: italic;*/
 	padding: 2% 2% 2% 2%;
 }
 
@@ -25,6 +25,10 @@
 	font-family: "Roboto";
 	font-size: 1.2em;
 	text-align: left;
+	padding: 2% 2% 2% 50%;
+}
+
+.image-auteur {
 	padding: 2% 2% 2% 55%;
 }
 
@@ -53,6 +57,6 @@ letter.initial{
 	color:#FFF; 
 	-webkit-transform:scale(8); 
 	-webkit-transform-origin:150% 50%; 
-	transform:scale(2); 
+	transform:scale(3); 
 	transform-origin:150% 50%; 
 }

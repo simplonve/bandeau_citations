@@ -1,6 +1,6 @@
 class BandeauController < ApplicationController
   def citations
-  	t = rand(15)+1
-  	@citation = Citation.find(t)
+  	tirage_citation = rand(Citation.all.length)+1
+  	@citation = Citation.find(tirage_citation)
   end
 end
