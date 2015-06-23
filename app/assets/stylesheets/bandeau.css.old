@@ -1,4 +1,4 @@
-@font-face{
+@font-face {
     font-family: 'Roboto';
     src: url('Roboto/Roboto-Thin.eot');
     src: url('Roboto/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
@@ -16,8 +16,7 @@
 .citation {
 	font-family: "Roboto";
 	font-size: 1.4em;
-	color: rgb (27, 60, 87);
-/*	font-style: italic;*/
+	color: rgb(27, 60, 87);
 	padding: 2% 2% 2% 2%;
 }
 
