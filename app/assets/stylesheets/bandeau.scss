@@ -23,30 +23,32 @@ $url_4: url(Roboto/Roboto-Thin.svg#Roboto);
 	font-weight: normal;
 	font-style: normal;
 }
+
 .citation {
 	font-family: $font_0;
 	font-size: 1.4em;
 	color: $color_cello_approx;
 	padding: 2%;
 }
+
 .auteur {
 	font-family: $font_0;
 	font-size: 1.2em;
 	text-align: left;
 	padding: 2% 2% 2% 50%;
 }
-.image-auteur {
-	padding: 2% 2% 2% 55%;
-}
+
 #mainText {
 	top: 150px;
 	width: 50%;
 	min-width: 500px;
 	margin: 50px auto;
 }
+
 word {
 	display: inline-block;
 }
+
 letter {
 	display: inline-block;
 	white-space: pre;
