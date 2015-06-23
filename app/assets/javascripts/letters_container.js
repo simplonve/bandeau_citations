@@ -13,7 +13,7 @@ for( var i=0; i < totalLetters; i++ ){
 	doTimer(letters[i], delay);
 	delay += delayJump;
 	if( letters[i].innerHTML == ' ' )
-		delay += delayJump * 3;
+		delay += delayJump * 18;
 }
 
 function doTimer(letter, delay){
